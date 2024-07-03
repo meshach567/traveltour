@@ -1,7 +1,7 @@
 
-# Travel UI Website
+# Travel TOUR Website
 
-This project is a travel UI website built using Next.js 14 and TailwindCSS, inspired by the JavaScript Mastery YouTube tutorial. It showcases various travel destinations, complete with beautiful images and descriptions to inspire wanderlust.
+This project is a traveltour website built using Next.js 14 and TailwindCSS, inspired by the JavaScript Mastery YouTube tutorial. It showcases various travel destinations, complete with beautiful images and descriptions to inspire wanderlust.
 
 ## Features
 
