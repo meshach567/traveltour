@@ -64,15 +64,15 @@ export const FEATURES = [
     {
         id: "1",
       title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      links: ['board', 'great', 'executive'],
     },
   ];
   
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { label: 'Admin Officer', value: '+23480382023' },
+      { label: 'Email Officer', value: 'ekeneadmin@gmail.com' },
     ],
   };
   
