@@ -8,8 +8,8 @@ const Footer = () => {
     <footer className="flexCenter mb-24">
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
-          <Link href="/" className="mb-10">
-            <Image src="hilink-logo.svg" alt="logo" width={74} height={29}/>
+          <Link href="/traveltour" className="mb-10">
+            <Image src="/traveltour/hilink-logo.svg" alt="logo" width={74} height={29}/>
           </Link>
 
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
@@ -17,7 +17,7 @@ const Footer = () => {
               <FooterColumn key={columns.id} title={columns.title}>
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                   {columns.links.map((link) => (
-                    <Link href="/" key={link}>
+                    <Link href="/traveltour" key={link}>
                       {link}
                     </Link>
                   ))}
@@ -29,7 +29,7 @@ const Footer = () => {
               <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                 {FOOTER_CONTACT_INFO.links.map((link) => (
                   <Link
-                    href="/"
+                    href="/traveltour"
                     key={link.label}
                     className="flex gap-4 md:flex-col lg:flex-row"
                   >
@@ -48,8 +48,8 @@ const Footer = () => {
               <FooterColumn title={SOCIALS.title}>
                 <ul className="regular-14 flex gap-4 text-gray-30">
                   {SOCIALS.links.map((link) => (
-                    <Link href="/" key={link}>
-                      <Image src={link} alt="logo" width={24} height={24} />
+                    <Link href="/traveltour" key={link}>
+                      <Image src={`/traveltour${link}`} alt="logo" width={24} height={24} />
                     </Link>
                   ))}
                 </ul>
