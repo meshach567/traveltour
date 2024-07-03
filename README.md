@@ -20,7 +20,7 @@ This project is a travel UI website built using Next.js 14 and TailwindCSS, insp
    ```
 2. Navigate to the project directory:
    ```bash
-   cd travel-ui-website
+   cd traveltour
    ```
 3. Install the dependencies:
    ```bash
@@ -34,8 +34,8 @@ This project is a travel UI website built using Next.js 14 and TailwindCSS, insp
 
 ## Usage
 
-- Modify the content in the `pages` directory to update travel destinations.
-- Customize the styling by editing the TailwindCSS classes in the `styles` directory.
+- Modify the content in the `components` directory to update travel destinations.
+- Customize the styling by editing the TailwindCSS classes in the `app` directory.
 
 ## Contributing
 
