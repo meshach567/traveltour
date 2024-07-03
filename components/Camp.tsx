@@ -15,7 +15,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
       <div className="flexCenter gap-4">
         <div className="rounded-full bg-green-50 p-4">
           <Image
-            src="/folded-map.svg"
+            src="/traveltour/folded-map.svg"
             alt="map"
             width={28}
             height={28}
@@ -32,7 +32,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
           {PEOPLE_URL.map((url) => (
             <Image 
               className="inline-block h-10 w-10 rounded-full"
-              src={url}
+              src={`/traveltour${url}`}
               key={url}
               alt="person"
               width={52}
@@ -74,7 +74,7 @@ const Camp = () => {
             Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That why we are here for those of you who want to start an adventure
           </p>
           <Image 
-            src="/quote.svg"
+            src="/traveltour/quote.svg"
             alt="camp-2"
             width={186}
             height={219}

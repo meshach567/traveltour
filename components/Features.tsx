@@ -8,7 +8,7 @@ const Features = () => {
       <div className="max-container padding-container relative w-full flex justify-end">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
-            src="/phone.png"
+            src="/traveltour/phone.png"
             alt="phone"
             width={440}
             height={1000}
@@ -19,7 +19,7 @@ const Features = () => {
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className='relative'>
             <Image
-              src="/camp.svg"
+              src="/traveltour/camp.svg"
               alt="camp"
               width={50}
               height={50}
@@ -32,7 +32,7 @@ const Features = () => {
               <FeatureItem 
                 key={feature.title}
                 title={feature.title} 
-                icon={feature.icon}
+                icon={`/traveltour${feature.icon}`}
                 description={feature.description}
               />
             ))}
@@ -53,7 +53,7 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
   return (
     <li className="flex w-full flex-1 flex-col items-start">
       <div className="rounded-full p-4 lg:p-7 bg-green-50">
-        <Image src={icon} alt="map" width={28} height={28} />
+        <Image src={`/traveltour${icon}`} alt="map" width={28} height={28} />
       </div>
       <h2 className="bold-20 lg:bold-32 mt-5 capitalize">
         {title}

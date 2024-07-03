@@ -15,20 +15,20 @@ const Navbar = () => {
 
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
-      <Link href="/">
-        <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
+      <Link href="/traveltour">
+        <Image src="/traveltour/hilink-logo.svg" alt="logo" width={74} height={29} />
       </Link>
 
       {/* Mobile and Tablet Menu */}
       <div className={`fixed top-0 left-0 h-full w-1/4 bg-white z-20 transition-transform duration-300 ease-in-out transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} lg:hidden`}>
         <div className="flex justify-between items-center p-4">
-          <Link href="/">
+          <Link href="/traveltour">
             
-              <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
+              <Image src="traveltour/hilink-logo.svg" alt="logo" width={74} height={29} />
            
           </Link>
           <Image
-            src="/close.svg"
+            src="/traveltour/close.svg"
             alt="close"
             width={24}
             height={24}
@@ -64,7 +64,7 @@ const Navbar = () => {
         <Button 
           type="button"
           
-          icon="/user.svg"
+          icon="/traveltour/user.svg"
           variant="btn_dark_green"
           title={isMenuOpen ? 'Close' : 'Menu'}
           onClick={toggleMenu}
@@ -72,7 +72,7 @@ const Navbar = () => {
       </div>
 
       <Image 
-        src="menu.svg"
+        src="/traveltour/menu.svg"
         alt="menu"
         width={32}
         height={32}
