@@ -50,6 +50,7 @@ export const FEATURES = [
   // FOOTER SECTION
   export const FOOTER_LINKS = [
     {
+        id: "0",
       title: 'Learn More',
       links: [
         'About Hilink',
@@ -61,6 +62,7 @@ export const FEATURES = [
       ],
     },
     {
+        id: "1",
       title: 'Our Community',
       links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
     },
